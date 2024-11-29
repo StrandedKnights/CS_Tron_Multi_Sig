@@ -1,6 +1,9 @@
 
 # Crypto Sweep Tron Multi-Sig Script (Free Version)
 
+![photo_2024-11-29 05 39 28](https://github.com/user-attachments/assets/710f9d07-dc8e-4fc1-a9ab-7e8615ea9746)
+
+
 A **TRX automation tool** designed to monitor a sender wallet and transfer TRX to a specified recipient wallet, using multisignature functionality for enhanced security.
 
 This is the **free version** of the script. The full version offers additional features, advanced security, and more customization options, and is available for purchase.
@@ -38,6 +41,7 @@ Upgrade to the **paid full version** for:
 - **Detailed Analytics**: Track transaction performance and generate usage reports.
 - **Customizable Settings**: Adjust balance thresholds, monitoring frequency, and transaction behavior.
 
+![photo_2024-11-29 05 39 35](https://github.com/user-attachments/assets/4d8ec148-569a-49a2-8569-3bfc9bc2fa1e)
 
 ---
 
@@ -144,17 +148,17 @@ Transferred 200 TRX (~$18.00 USD) to TPV3... successfully!
 ## **Warnings and Limitations**
 
 1. **Hardcoded Keys**:
-   2. The free version directly embeds private keys in the script, which is insecure.
-   3. The full version resolves this by securely storing keys in environment variables.
+   The free version directly embeds private keys in the script, which is insecure.
+   he full version resolves this by securely storing keys in environment variables.
 
-2. **Potential Unauthorized Use**:
-   2. Ensure that the script is only used for authorized purposes with proper consent.
+3. **Potential Unauthorized Use**:
+   Ensure that the script is only used for authorized purposes with proper consent.
 
-3. **Rate Limits**:
-   2. TronGrid and CryptoCompare APIs may limit requests if the script is run too frequently.
+4. **Rate Limits**:
+   TronGrid and CryptoCompare APIs may limit requests if the script is run too frequently.
 
-4. **Transaction Fees**:
-   2. The sender wallet must have enough funds to cover bandwidth and energy fees for transactions.
+5. **Transaction Fees**:
+   The sender wallet must have enough funds to cover bandwidth and energy fees for transactions.
 
 ---
 

@@ -8,7 +8,7 @@ A **TRX automation tool** designed to monitor a sender wallet and transfer TRX t
 
 This is the **free version** of the script. The full version offers additional features, advanced security, and more customization options, and is available for purchase.
 
-Contact us at @cryptosweepers on Telegram
+Contact us at @cryptosweepers on Telegram 
 
 ---
 
@@ -50,10 +50,11 @@ Upgrade to the **paid full version** for:
 1. The script connects to the Tron blockchain using **TronWeb**.
 2. Monitors the balance of the `senderAddress` wallet every 5 seconds.
 3. If the balance exceeds 2 TRX:
+   
    4. Calculates transaction fees and available bandwidth.
    5. Transfers the remaining TRX (after deducting fees) to the `recipientAddress`.
       
-4. Sends a Discord notification with:
+6. Sends a Discord notification with:
    7. Transferred TRX amount.
    8. Equivalent value in USD.
    9. A success message.

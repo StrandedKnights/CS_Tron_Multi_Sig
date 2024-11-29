@@ -52,6 +52,7 @@ Upgrade to the **paid full version** for:
 3. If the balance exceeds 2 TRX:
    4. Calculates transaction fees and available bandwidth.
    5. Transfers the remaining TRX (after deducting fees) to the `recipientAddress`.
+      
 4. Sends a Discord notification with:
    7. Transferred TRX amount.
    8. Equivalent value in USD.
